@@ -1364,46 +1364,6 @@
     "weight": 0
   },
   {
-    "bookSourceName": "\u0038\u0038\u4e66\u6797",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.50zw.so",
-    "customOrder": 27,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": false,
-    "lastUpdateTime": 1675926196793,
-    "respondTime": 180000,
-    "ruleBookInfo": {
-      "author": "//meta[@property='og:novel:author']/@content",
-      "coverUrl": "//meta[@property='og:image']/@content",
-      "intro": "//meta[@property='og:description']/@content",
-      "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
-      "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
-      "name": "//meta[@property='og:novel:book_name']/@content"
-    },
-    "ruleContent": {
-      "content": "id.content@textNodes##\u0038\u0038\u4e66\u6797.+|\u6700\u65b0\u7ae0\u8282\uff01"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "class.odd.1@text",
-      "bookList": "<js>java.log(result)</js>class.grid.0@tag.tr!0",
-      "bookUrl": "tag.a.0@href",
-      "kind": "class.even.2@text",
-      "lastChapter": "tag.a.1@text",
-      "name": "tag.a.0@text",
-      "wordCount": "class.even.1@text"
-    },
-    "ruleToc": {
-      "chapterList": "class.zjlist.0@tag.a",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "nextTocUrl": "class.form-control.0@tag.option.!0@value"
-    },
-    "searchUrl": "/modules/article/search.php?searchkey={{key}}&submit=\u641c\u7d22&json=1,{'charset':'gbk'}",
-    "weight": 0
-  },
-  {
     "bookSourceComment": "",
     "bookSourceGroup": "正版",
     "bookSourceName": "飞卢小说💰",
